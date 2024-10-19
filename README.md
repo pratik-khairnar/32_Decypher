@@ -1,7 +1,9 @@
 # ML_model
 Meaning of column names:
 1)ID: Unique identifier for each loan record. 
+
 2)year: Year of loan issuance. 
+
 3)loan_limit: Loan limit category. 
 4)Gender: Loan applicant gender.
 5)approv_in_adv: Indicates whether the loan has been pre-approved.
