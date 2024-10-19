@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/bluebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Scale the image to cover the entire area */
+    color: #ffffff;
+}
+
+.graph {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: 20px; /* Add some space around the container */
+}
+
+.info{
+    margin-left: 22rem;
+    margin-right: 20rem;
+}
+
+

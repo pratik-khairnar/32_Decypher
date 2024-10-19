@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/stylesheet/styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="graph">
+        <img src="/assets/la-ls.png" alt="graph", height="700rem">
+        <div class="info">
+            <h2>Key Observations</h2>
+    <ul>
+        <li>Median Loan Amounts: Approved loans generally have a lower median loan amount compared to defaulted loans.</li>
+        <li>Distribution: The distribution of loan amounts for defaulted loans is more spread out, with a higher interquartile range (IQR), indicating greater variability.</li>
+        <li>Outliers: There are a few outliers (data points significantly different from the majority) in both groups, but they are more prominent in the defaulted loans.</li>
+        <li>Overlap: The distributions overlap to some extent, suggesting that loan amount alone might not be a strong predictor of default.</li>
+    </ul>
+
+    <h2>Implications for Loan Eligibility Prediction</h2>
+    <ul>
+        <li>Consider Other Factors: While loan amount provides some insight, other factors like credit score, income, and debt-to-income ratio should be considered for a more accurate prediction.</li>
+        <li>Risk Assessment: The higher variability in loan amounts for defaulted loans suggests a potential need for more stringent risk assessment measures for larger loans.</li>
+        <li>Feature Engineering: Exploring interactions between loan amount and other variables might reveal additional patterns that can improve prediction accuracy.</li>
+    </ul>
+    </div>
+</body>
+</html>

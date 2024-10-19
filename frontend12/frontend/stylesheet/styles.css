@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/bluebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Scale the image to cover the entire area */
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;             /* Enable flexbox */
+    justify-content: space-between; /* Space elements to extremes */
+    align-items: center;      /* Center elements vertically */
+    padding: 10px;
+    text-align: center;            /* Optional: Add some padding */
+}
+
+h1 {
+    text-align: center;
+}
+
+.Button, .ScrollButton {
+    background-color: rgba(0, 0, 128, 0.5); ; /* Same color as before but with 50% opacity */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding for size */
+    text-align: center;
+    align-items: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Make it behave like a block element */
+    font-size: 16px;
+    justify-content: center; /* Font size */
+    margin: 0px ; /* Margin around button */
+    cursor: pointer; /* Change cursor on hover */
+    width: 225px; /* Set a fixed width for rectangular shape */
+    height: 50px; /* Set a fixed height */
+    border-radius: 20px; /* Remove rounded corners for rectangular shape */
+    line-height: 50px; /* Make text in line with the button */
+}
+
+.Button:hover, .ScrollButton:hover {
+    background-color: rgba(0, 86, 179, 0.5); /* Change color on hover with 50% opacity */
+}
+.Button2:hover {
+    background-color: rgba(0, 86, 179, 0.5); /* Change color on hover with 50% opacity */
+}
+
+.Button:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+.hero{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;   
+}
+
+.cards{
+    display: flex;
+    height: 250px;
+}
+
+.img-grp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-sec {
+    display: block;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.img-sec2 {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    gap: 40px;
+}
+.img-sec3 {
+    display: block;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.custom_Text{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.custom_para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.img2{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.graph-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;   
+}
+
+.eligible{
+    align-items: center;
+}
+.eligible_text{
+    display: flex;
+    justify-content: center;
+}
+
+.eligible_options{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.eligible_options2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.eligible_options3, .eligible_options5, .eligible_options6 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 20px; /* Add margin for spacing between sets */
+}
+
+.eligible_options4 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 20px; /* Add margin for spacing between sets */
+}
+
+
+.check{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.Button2{
+    background-color: #4CAF50;
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding for size */
+    text-align: center;
+    align-items: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Make it behave like a block element */
+    font-size: 16px;
+    justify-content: center; /* Font size */
+    margin: 0px ; /* Margin around button */
+    cursor: pointer; /* Change cursor on hover */
+    width: 225px; /* Set a fixed width for rectangular shape */
+    height: 50px; /* Set a fixed height */
+    border-radius: 20px; /* Remove rounded corners for rectangular shape */
+    line-height: 50px; 
+}

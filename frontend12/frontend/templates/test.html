@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Prediction Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        h3 {
+            text-align: center;
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            form {
+                padding: 15px;
+                max-width: 100%;
+            }
+
+            input[type="text"] {
+                font-size: 14px;
+            }
+
+            input[type="submit"] {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Loan Prediction Model</h2>
+    <form action="/predict" method="post">
+        <label>ID:</label><input type="text" name="ID" required><br>
+        <label>Year:</label><input type="text" name="year" required><br>
+        <label>Loan Limit:</label><input type="text" name="loan_limit" required><br>
+        <label>Gender:</label><input type="text" name="Gender" required><br>
+        <label>Approval in Advance:</label><input type="text" name="approv_in_adv" required><br>
+        <label>Loan Type:</label><input type="text" name="loan_type" required><br>
+        <label>Loan Purpose:</label><input type="text" name="loan_purpose" required><br>
+        <label>Credit Worthiness:</label><input type="text" name="Credit_Worthiness" required><br>
+        <label>Open Credit:</label><input type="text" name="open_credit" required><br>
+        <label>Business or Commercial:</label><input type="text" name="business_or_commercial" required><br>
+        <label>Rate of Interest:</label><input type="text" name="rate_of_interest" required><br>
+        <label>Interest Rate Spread:</label><input type="text" name="Interest_rate_spread" required><br>
+        <label>Neg Ammortization:</label><input type="text" name="Neg_ammortization" required><br>
+        <label>Interest Only:</label><input type="text" name="interest_only" required><br>
+        <label>Lump Sum Payment:</label><input type="text" name="lump_sum_payment" required><br>
+        <label>Construction Type:</label><input type="text" name="construction_type" required><br>
+        <label>Occupancy Type:</label><input type="text" name="occupancy_type" required><br>
+        <label>Secured By:</label><input type="text" name="Secured_by" required><br>
+        <label>Total Units:</label><input type="text" name="total_units" required><br>
+        <label>Credit Type:</label><input type="text" name="credit_type" required><br>
+        <label>Credit Score:</label><input type="text" name="Credit_Score" required><br>
+        <label>Co-Applicant Credit Type:</label><input type="text" name="co-applicant_credit_type" required><br>
+        <label>Age Encoded:</label><input type="text" name="age_encoded" required><br>
+        <label>Submission of Application:</label><input type="text" name="submission_of_application" required><br>
+        <label>Region:</label><input type="text" name="Region" required><br>
+        <label>Security Type:</label><input type="text" name="Security_Type" required><br>
+        <label>DTIR1:</label><input type="text" name="dtir1" required><br>
+        <label>Income Log:</label><input type="text" name="incomelog" required><br>
+        <label>Loan Amount Log:</label><input type="text" name="loan_amountlog" required><br>
+        <label>Term Log:</label><input type="text" name="termlog" required><br>
+        <label>Upfront Charges Log:</label><input type="text" name="Upfront_chargeslog" required><br>
+        <label>Property Value Log:</label><input type="text" name="property_valuelog" required><br>
+        <label>LTV Log:</label><input type="text" name="LTVlog" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+   

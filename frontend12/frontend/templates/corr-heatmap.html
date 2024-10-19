@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/stylesheet/styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="graph">
+        <img src="/assets/corr-heatmap.png" alt="graph", height="700rem">
+        <div class="info">
+            <h2>Key Observations</h2>
+            <ul>
+                <li>Strong Positive Correlations:</li>
+                <ul>
+                    <li>`loan_amount` and `property_value`: Larger loans are often associated with higher property values.</li>
+                    <li>`interest_rate` and `interest_rate_spread`: Higher interest rates are often accompanied by wider spreads.</li>
+                </ul>
+                <li>Strong Negative Correlations:</li>
+                <ul>
+                    <li>`status` and `loan_amount`: Larger loan amounts are associated with a higher risk of default.</li>
+                    <li>`status` and `property_value`: Properties with higher values might be associated with lower default rates.</li>
+                </ul>
+                <li>Moderate Correlations:</li>
+                <ul>
+                    <li>`term` and `loan_amount`: Longer loan terms are often associated with larger loan amounts.</li>
+                    <li>`income` and `property_value`: Higher income levels are associated with owning properties with higher values.</li>
+                </ul>
+            </ul>
+        
+            <h2>Implications</h2>
+            <ul>
+                <li>Feature Engineering: Consider creating interaction terms or ratios between `loan_amount`, `property_value`, and `status` to improve predictive models.</li>
+                <li>Multicollinearity: Address potential multicollinearity between `interest_rate` and `interest_rate_spread` by removing one of the variables or using techniques like principal component analysis.</li>
+                <li>Risk Assessment: Consider `loan_amount` and `property_value` as key factors in risk assessment when evaluating loan applications.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
